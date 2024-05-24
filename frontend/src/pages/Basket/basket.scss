@@ -1,0 +1,37 @@
+.imagebasket {
+  width: 100px;
+  height: 130px;
+}
+.plusminus {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+  margin: 10px;
+}
+.basketremove {
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: red;
+  border: none;
+}
+.deleteall {
+  width: 200px;
+  height: 40px;
+  color: white;
+  background-color: red;
+  margin: 50px;
+}
+.heartbefore {
+  color: gray;
+  font-size: 30px;
+  background-color: white;
+}
+.heartafter {
+  color: red;
+  font-size: 30px;
+  background-color: white;
+}

@@ -1,0 +1,68 @@
+.mainhero{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    .containerhero{
+        width: 1000px;
+        margin: 0 auto;
+        position: relative;
+        .heroimage{
+            width: 600px;
+            height: 80vh;
+            position: absolute;
+            right: -110px;
+            bottom: -200px;
+        }
+        
+        .leftside{
+            margin-right: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .mytexts{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
+                .mytitle{
+                    font-size: 60px;
+                    font-weight: 800;
+                }
+                .mytext{
+                    font-size: 18px;
+                }
+                .myprice{
+                    display: flex;
+                    gap: 5px;
+                    .firstprice{
+                        font-size:30px ;
+                    }
+                    .secondprice{
+                        font-size: 30px;
+                        color: gray;
+
+                    }
+                }
+            }
+            .buttons{
+                display: flex;
+                gap: 10px;
+                margin-top: 100px;
+                .firstbutton{
+                    border: solid blue 1px;
+                    width: 100px;
+                    height: 40px;
+                    color: blue;
+                }
+                .secondbutton{
+                    background-color: blue;
+                    color: white;
+                    width: 100px;
+                    height: 40px;
+                    border: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.mainNavbar{
+    height: 10vh;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Navbarcontainer{
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .navbarLogo{
+            font-size: 26px;
+            font-weight: 700;
+        }
+        .navlist{
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            font-size: 18px;
+            
+        }
+
+    }
+}
+.navlinks{
+    color: black;
+    text-decoration: none;
+    .logolinks{
+        font-size: 22px;
+    }
+}
+.rightsidenav{
+    display: flex;
+    gap: 30px;
+}
